@@ -55,7 +55,7 @@ example_board = Board()
 for x in range(9):
     example_board.write_to_board(x + 1, x + 1)
 example_board.display_board()
-print("The cell are numerated as in this example board.\n")
+print("The cells are numerated as in this example board.\n")
 input("All clear? Press ENTER to start the game!")
 
 board = Board()
