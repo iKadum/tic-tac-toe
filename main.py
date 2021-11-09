@@ -65,7 +65,7 @@ while True:
     winner = board.check_winner()
     if winner or len(board.positions) > 8:
         if winner:
-            print(f"Congratulations Player {winner}, you won!\n")
+            print(f"Congratulations {winner}, you won!\n")
         else:
             print("Draw!\n")
 
